@@ -17,3 +17,5 @@ Uses msmtp with gmail for the reporting, so a config with .msmtprc has to be don
         password       your_app_password_here
         
         account default : gmail
+
+This should send an alert to your email once a threshold of attempts is reached. 

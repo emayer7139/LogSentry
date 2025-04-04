@@ -3,6 +3,7 @@ emails alerts for failed login attempts on Debian systems
 
 Looks at /var/log/auth.log which requires rsyslog to be enabled on the system. 
 Uses msmtp with gmail for the reporting, so a config with .msmtprc has to be done. 
+Be sure to generate an app password from gmail instead of using your actual password.
               defaults
         auth           on
         tls            on

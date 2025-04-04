@@ -20,6 +20,13 @@ emails alerts for failed login attempts on Linux systems
             user           your.email@gmail.com
             password       your_app_password_here
             
-            account default : gmail ##
+            account default : gmail
 
-- This should send an alert to your email once a threshold of attempts is reached. 
+- This should send an alert to your email once a threshold of attempts is reached.
+
+  
+## Installation
+
+1. **Clone the Repository:**
+      ```bash
+   git clone https://github.com/emayer7139/logsentry.git
